@@ -16,15 +16,15 @@ int main(void)
 
 	while (num <= 9)
 	{
-		putchar(digit + 48);
+		putchar(num + 48);
 
-		if (digit != 9)
+		if (num != 9)
 		{
 			putchar(',');
 			putchae(' ');
 		}
 
-		digit++;
+		num++;
 	}
 	putchar('\n');
 	return (0);
