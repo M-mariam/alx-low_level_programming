@@ -12,19 +12,19 @@
 
 int main(void)
 {
-	int num = 0;
+	int digit = 0;
 
-	while (num <= 9)
+	while (digit <= 9)
 	{
-		putchar(num + 48);
+		putchar(digit + 48);
 
-		if (num != 9)
+		if (digit != 9)
 		{
 			putchar(',');
 			putchae(' ');
 		}
 
-		num++;
+		digit++;
 	}
 	putchar('\n');
 	return (0);
