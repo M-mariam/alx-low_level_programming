@@ -1,9 +1,10 @@
-#include"main.h"
+#include "main.h"
 
 /**
- * print_alphabet - utalizes on the _putchar function to print the alphabet a -z
+ * main - check the code for Holberton School students.
  *
-*/
+ * Return: Always 0.
+ */
 
 void print_alphabet(void);
 {
